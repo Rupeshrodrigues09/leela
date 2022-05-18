@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Water+Brush&display=swap');
+
+* { box-sizing: border-box; }
 .background{
-    background-image: url("assets/Image\ 23.png");
-    width:100%;
+    background-image: url("assets/Mask\ Group\ 1.png");
+    width:auto;
     height:auto;
     background-repeat: no-repeat;
     /* background-size: cover; */
@@ -57,14 +59,14 @@ opacity: 1;
 }
 .hamber{
     /* padding: 10px; */
-    margin-right: 40px;
+    margin-right: 77px;
     cursor: pointer;
 }
 
 .head{
     /* top: 361px;
 left: 139px; */
-margin-left:100px;
+margin-left:58px;
 padding-right: 400px;
 margin-bottom: -98px;
 width: 895px;
@@ -81,7 +83,7 @@ opacity: 1;
     padding-top: 20px;
     padding-left:0;
     margin-top: 0;
-    margin-left:50px;
+    margin-left:8px;
     left: 139px;
     width: 462px;
     height: 46px;
@@ -97,8 +99,8 @@ opacity: 1;
 .weather{
 /* display: inline; */
 width: 360px;
-height: 53px;
-margin-left :100px;
+height: 75px;
+margin-left :62px;
 /* UI Properties */
 
 background: #ffffff6b 0% 0% no-repeat padding-box;
@@ -115,8 +117,8 @@ background: #ffffff6b 0% 0% no-repeat padding-box;
 
     margin-top: -58px;
     margin-left:65px;
-    /* width: 88px; */
-height: 26px;
+    width: auto;
+height: auto;
 font-size:20px;
 text-align: left;
 font: normal normal normal 20px/38px Jost;
@@ -181,21 +183,18 @@ color: #FFFFFF;
 
 .details{
    margin-top:60px;
-   margin-left:90px;
+   margin-left:47px;
    margin-right:20px;
 width: 1154px;
-height: 130px;
+height: 197px;
 background: #000000f1 0% 0% no-repeat padding-box;
 opacity: 0.6;
 }
 
-.no{
-    margin-left:1205px;
-    margin-bottom:-104px;
-}
+
 
 .col{
-    width: 265px;
+    width: 285px;
     height: 53px;
     opacity: 1;
     text-align: left;
@@ -204,10 +203,18 @@ opacity: 0.6;
   
 }
 
+#miui{
+    margin-left:0px;
+    padding-bottom:20px;
+    border-bottom: 1px solid #ACACAC;
+/* opacity: 0.5; */
+}
+
 .find{
   
-width: 120px;
-height: 22px;
+width: auto;
+height: auto;
+padding-left:12px;
 
 /* text-align: center; */
 font: normal normal medium 17px/48px Jost;
@@ -219,8 +226,9 @@ opacity: 1;
 .destination{
     top: 872px;
     left: 184px;
-    width: 265px;
-    height: 26px;
+    padding-left:12px;
+    width: auto;
+    height: auto;
     font-size: 10px;
     text-align: left;
     font: normal normal medium 20px/67px Jost;
@@ -261,7 +269,1026 @@ opacity: 1;
 
 #column{
     border-right: 1px solid #EEC66E;
+  
 }
 .number{
     margin-top:-11px;
 }
+
+#adult{
+    padding-left: 23px;
+    padding-top: 0;
+}
+
+#number{
+    /* padding-bottom:0px; */
+    padding-left:27px;
+}
+
+#child{
+    padding-left:9px;
+    padding-top:0px;
+text-align: center;
+font: normal normal medium 17px/48px Jost ;
+letter-spacing: 1.7px;
+color: #EEC66E;
+opacity: 1;
+}
+
+#children{
+    padding-left: 60px;
+}
+
+#code{
+    padding-left:0px;
+text-align: center;
+font: normal normal medium 17px/48px Jost;
+letter-spacing: 1.7px;
+color: #EEC66E;
+opacity: 1;
+}
+
+#select{
+    margin-top:-79px;
+    margin-left:138px;
+}
+
+.code{
+   margin-right:52px; 
+text-align: center;
+font: normal normal medium 20px/67px Jost;
+letter-spacing: 1px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.enter{
+    padding-left:0px;
+   text-align: center;
+font: normal normal medium 17px/48px Jost;
+letter-spacing: 1.7px;
+color: #EEC66E;
+opacity: 1;
+}
+
+#enter{
+    width: 218px;
+height: 26px;
+text-align: center;
+font: normal normal medium 20px/67px Jost;
+letter-spacing: 1px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.available{
+    margin-top:-6px;
+/* margin-right:100px;  */
+height:85px;
+width:211px;
+
+
+background:  linear-gradient(74deg, #CC9341 0%, #FFE086 0%, #CC9341 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#available{
+    padding-left: 17spx;
+    padding-top:27px;
+    text-align: center;
+    font: normal normal medium 23px/85px Jost;
+    letter-spacing: 2.3px;
+    color: #000000;
+    /* opacity: 1; */
+}
+
+.column{
+    padding-left:0px;
+    border-right: 1px solid #EEC66E;
+}
+
+#mouse{
+    margin-top:6px;
+    border-right: 1px solid #EEC66E;
+}
+
+#screen{
+    margin-top:6px;
+    border-right: 1px solid #EEC66E;
+}
+
+#wire{
+    margin-top:6px;
+    border-right: 1px solid #EEC66E;
+}
+
+#modify{
+    width: 256px;
+    height: 22px;
+    padding-left:29px;
+    font: normal normal medium 17px/48px Jost;
+    letter-spacing: 1.7px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.contain{
+    width:1154px;
+    height:85px;
+    border-bottom: 1px solid #ACACAC;
+}
+
+#box{
+    padding-left:649px;
+    padding-right:0px;
+    margin-right:0px;
+}
+#rate{
+    margin-left:-49px;
+    width: 292px;
+height: 22px;
+padding-left:89px;
+text-align: left;
+font: normal normal medium 17px/48px Jost;
+letter-spacing: 1.7px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#active{ 
+    text-decoration: none;
+width: -1px;
+height: 26px;
+border-bottom: 1px solid #D7A350;
+
+text-align: center;
+font: normal normal medium 20px/43px Jost;
+letter-spacing: 1px;
+color: #D7A350;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#glance{
+/* width: 188px; */
+height: 26px;
+
+text-align: center;
+font: normal normal normal 20px/25px Jost;
+letter-spacing: 1px;
+color: #212121;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#offers{
+   
+width: 68px;
+height: 26px;
+
+text-align: left;
+font: normal normal normal 20px/25px Jost;
+letter-spacing: 1px;
+color: #212121;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#leela{
+   
+width: -1px;
+height: 45px;
+
+text-align: center;
+font: normal normal normal 35px/43px Futura PT;
+letter-spacing: 1.75px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#beach{
+width: -1px;
+height: 29px;
+text-align: center;
+font: normal normal normal 22px/29px Futura PT;
+letter-spacing: 1.1px;
+color: #343434;
+opacity: 1;
+}
+#call{
+    margin-top:-12px;
+    margin-left: 283px;
+width: 57px;
+height: 30px;
+
+/* background: transparent 0% 0% no-repeat padding-box; */
+opacity: 1;
+
+}
+
+#telephone{
+   /* padding-top: 1370px; */
+   margin-top:-30px;
+padding-left: 341px;
+width: -1px;
+height: 29px;
+
+text-align: left;
+font: normal normal normal 22px/29px Futura PT;
+letter-spacing: 1.1px;
+color: #000000;
+}
+
+#mail{
+    margin-top:-88px;
+    margin-left:609px;
+    width: 30px;
+height: 30px;
+
+/* background: transparent url('img/Group 338.png') 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+
+.mail{
+    margin-top: -69px;
+margin-left: 650px;
+width: 253px;
+height: 29px;
+
+text-align: left;
+font: normal normal normal 22px/29px Futura PT;
+letter-spacing: 1.1px;
+color: #000000;
+opacity: 1;
+}
+
+#flight{
+    /* margin-top:0px; */
+    margin-left:130px;
+}
+
+.airport{
+    /* padding:4px; */
+    margin-top:-27px;
+    margin-left: 168px;
+}
+.air{
+    margin-top:-8px;
+    margin-left: 169px;
+    font-size: 11px;
+    /* border-left: 1px solid ; */
+
+}
+#air{
+    margin-left: -56px;
+    padding-left: 0px;
+    /* margin-right:0px; */
+    padding-right:12px;
+    float: left;
+}
+.train{
+    margin-left:-37px;
+    margin-right:0px;
+}
+#train{
+    margin-left:68px;
+    padding-left:0px;
+    width:0px;
+    float: right;
+    /* align-items: center; */
+}
+.near{
+    margin-left:8px;
+    margin-top:-30px;
+}
+#station{
+    font-size: 11px;
+    padding-left: 5px;
+    margin-top: -6px;
+}
+.map{
+    margin-left:-56px;
+    margin-top:-6px;
+}
+#map{
+    font-size: 11px;
+    margin-left: -22px;
+    margin-top: -6px;
+}
+.google{
+    margin-left:-19px;
+    margin-top:-29px;
+}
+#row{
+    margin-left:0px;
+    padding-left: 62px;
+    width: -1px;
+    height:133spx;
+}
+
+  
+.container-fluid{  
+    width:100%;
+    position: relative;
+
+text-align: center;
+color: white;
+flex-wrap: wrap;
+}
+.nil{
+    position: absolute;
+   
+top: 80%;
+left: 50%;
+right:auto;
+padding-left: 100px;
+padding-right: 100px;
+transform: translate(-50%, -50%);
+
+/* width: 222px; */
+height: 45px;
+
+text-align: left;
+font: normal normal normal 35px/37px Futura PT;
+letter-spacing: 1.75px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.discover{
+margin-top:70px;
+margin-left:485px;
+width: 274px;
+height: 45px;
+
+text-align: center;
+font: normal normal normal 26px/43px Futura PT;
+letter-spacing: 1.75px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;
+}
+
+#first{
+    top: 2380px;
+left: 140px;
+width: 200px;
+height: 200px;
+
+opacity: 1;
+}
+#second{
+    top: 2380px;
+left: 475px;
+width: 200px;
+height: 200px;
+
+opacity: 1;
+}
+
+#third{
+    width: 200px;
+height: 200px;
+
+opacity: 1;
+}
+#fourth{
+ width: 200px;
+    height: 200px; 
+    
+    opacity: 1;
+}
+
+#fifth{
+    width: 200px;
+    height: 200px;
+    
+    opacity: 1;
+}
+
+/* #discover{
+    margin-left:5px;
+}
+#rounded{
+    margin-right:-50px;
+}
+
+#lake{
+    margin-right:-50px;
+}
+#table{
+    margin-right:-50px;
+}
+#candle{
+    margin-right:-50px;
+} */
+/* 
+#row{
+    display: flex;
+} */
+
+.img-thumbnail{
+    border:none;
+}
+.card{
+    border: none;
+}
+
+
+
+  .flickity-button {
+    background: #ece8e849 !important;
+    cursor: pointer;
+  }
+  .flickity-button {
+    color: #333333c9;
+  }
+
+ 
+
+  ul{
+      list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+  }
+
+  .text-uppercase{
+   
+    /* width: 124px;  */
+    height: 68px;
+    
+    text-align: left;
+    font: normal normal normal 19px/23px Futura PT;
+    letter-spacing: 1.8px;
+    color: #D6D6D6;
+    opacity: 1;
+  }
+.list-unstyled{
+    top: 2956px;
+left: 141px;
+width: -1px;
+height: 366px;
+
+text-align: left;
+font: normal normal normal 18px/35px Futura PT;
+letter-spacing: 0.9px;
+color: #A3A3A3;
+opacity: 0.85;
+}
+
+footer{
+    margin-top:20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #row{
+        margin-left:0px;
+        padding-left: 62px;
+        width:-1px;
+        height:174px;
+
+    }
+  
+    #flight{
+        /* margin-top:0px; */
+        margin-left:16px;
+    }
+    .airport{
+        /* padding:4px; */
+        margin-top:0px;
+        margin-left: 9px;
+    }
+    .air{
+        margin-top:-5px;
+        margin-left: 9px;
+        font-size: 11px;
+        /* border-left: 1px solid ; */
+    
+    }
+    #air{
+        margin-left: -56px;
+        padding-left: 0px;
+        /* margin-right:0px; */
+        padding-right:12px;
+        float: left;
+        width:0px;
+        height:0px;
+    }
+    
+    #train{
+        margin-left:68px;
+        padding-left:0px;
+        width:0px;
+        float: right;
+        /* align-items: center; */
+    }
+    .train{
+        margin-left:0px;
+        margin-top:0px;
+    }
+    
+    
+    #station{
+        font-size: 11px;
+        margin-top:0px;
+        margin-left:-23px;
+    }
+    .map{
+        margin-left:39px;
+    }
+    #map{
+        font-size: 11px;
+        margin-left:0px;
+        margin-top:-6px;
+    }
+    .near{
+        margin-top:0px;
+        margin-left:-10px;
+    }
+    .google{
+        margin-left :16px;
+        margin-top:6px;
+    }
+    .discover{
+        margin-top:70px;
+        margin-left:64px;
+        width: 274px;
+        height: 45px;
+        
+        text-align: center;
+        font: normal normal normal 26px/43px Futura PT;
+        letter-spacing: 1.75px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+        }
+
+        
+#first{
+    top: 2380px;
+left: 140px;
+width: 71px;
+height: 71px;
+
+opacity: 1;
+}
+#second{
+    top: 2380px;
+left: 475px;
+width: 71px;
+height: 71px;
+
+opacity: 1;
+}
+
+#third{
+    width: 71px;
+height: 71px;
+
+opacity: 1;
+}
+#fourth{
+ width: 71px;
+    height: 71px; 
+    
+    opacity: 1;
+}
+
+#fifth{
+    width: 71px;
+    height: 71px;
+    
+    opacity: 1;
+}
+#logo{       
+    /* top: 22px;
+    left: 139px; */
+    width: 88px;
+    height: 80px;
+    margin-left:0px;
+/* position: relative; */
+    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.text{
+    /* position: relative; */
+    /* padding-top: 65px;
+    padding-left: 1553px; */
+    padding: 10px;
+    width: 93px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/48px Jost;
+    letter-spacing: 1.6px;
+    color: #FCDB83;
+    opacity: 1;
+}
+
+.text:hover{
+    color: #FCDB83;
+}
+.drop-down{
+    /* position: relative; */
+/* padding-top: 64px;
+padding-left: 1650px; */
+/* width: 24px; */
+padding: 10px;
+height: 24px;
+background: transparent;
+opacity: 1;
+/* object-fit: cover; */
+}
+
+.nav-item{
+    float:right;
+}
+
+.navbar{
+   background-image:  linear-gradient(180deg, #000000 0%, #00000000 100%); 
+    margin-bottom: 100px;
+}
+.hamber{
+    /* padding: 10px; */
+    margin-right: 77px;
+    cursor: pointer;
+}
+
+.head{
+    /* top: 361px;
+left: 139px; */
+margin-left:0px;
+padding-right: 400px;
+margin-bottom: -98px;
+width: 745px;
+height: 203px;
+text-align: left;
+font: normal normal medium 80px/100px Jost;
+letter-spacing: 1.6px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.description{
+    padding-top: 0px;
+    padding-left:0;
+    margin-top: 0;
+    margin-left:-194px;
+    left: 139px;
+    width: 745px;
+    height: 46px;
+    
+    text-align: center;
+    font: normal normal medium 36px/54px Jost;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.weather{
+    /* display: inline; */
+    width: 301px;
+    height: 73px;
+    margin-left :14px;
+    /* UI Properties */
+    
+    background: #ffffff6b 0% 0% no-repeat padding-box;
+    /* opacity: 0.15; */
+    }
+    #beach{
+        width: -1px;
+        height: 70px;
+        text-align: center;
+        font: normal normal normal 22px/29px Futura PT;
+        letter-spacing: 1.1px;
+        color: #343434;
+        opacity: 1;
+        }
+
+
+#leela{
+   
+    width: -1px;
+    height: 77px;
+    
+    text-align: center;
+    font: normal normal normal 35px/43px Futura PT;
+    letter-spacing: 1.75px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .contact{
+        margin-left: -300px;
+        
+    }
+
+    #call{
+        margin-top:-12px;
+        margin-left: 314px;
+    width: 57px;
+    height: 22px;
+    
+    /* background: transparent 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    
+    }
+    
+    #telephone{
+       /* padding-top: 1370px; */
+       margin-top:-30px;
+    padding-left: 358px;
+    width: -1px;
+    height: 22px;
+    
+    text-align: left;
+    font: normal normal normal 9px/29px Futura PT;
+    letter-spacing: 1.1px;
+    color: #000000;
+    }
+    
+    #mail{
+        margin-top:-73px;
+        margin-left:471px;
+        width: 30px;
+    height: 22px;
+    
+    /* background: transparent url('img/Group 338.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    }
+    
+    .mail{
+        margin-top: -62px;
+    margin-left: 499px;
+    width: 253px;
+    height: 29px;
+    
+    text-align: left;
+    font: normal normal normal 9px/29px Futura PT;
+    letter-spacing: 1.1px;
+    color: #000000;
+    opacity: 1;
+    }
+} 
+
+ 
+     @media only screen and (min-width:620px) and (max-width:820px) {  
+    .discover {
+        margin-top: 70px;
+        margin-left: 305px;
+        width: 274px;
+        height: 45px;
+        text-align: center;
+        font: normal normal normal 26px/43px Futura PT;
+        letter-spacing: 1.75px;
+        color: #000000;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+
+      #first {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+      }
+      #second {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+      }
+      #third {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+      }
+      #fourth {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+      }
+      #fifth {
+        width: 120px;
+        height: 120px;
+        opacity: 1;
+      }
+      .contact{
+          margin-left:-221px;
+      }
+
+      #row{
+          width:-1px;
+          height:100px;
+      }
+} 
+
+
+@media only screen and (max-width: 992px) {
+    body{
+        overflow-x: hidden;
+    }
+    .head{
+    margin-left: 40px;
+    padding-right: 231px;
+    margin-bottom: -98px;
+    width: 609px;
+    height: 203px;
+    text-align: left;
+    font: normal normal medium 80px/100px Jost;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .details{
+        margin-top:60px;
+        margin-left:47px;
+        margin-right:20px;
+     width: 1154px;
+     height: auto;
+     background: #000000f1 0% 0% no-repeat padding-box;
+     opacity: 0.6;
+     }
+     
+     .no{
+        margin-top:-177px;
+        margin-left: 128px;
+         cursor: pointer;
+     }
+     
+     .col{
+         width: 285px;
+         height: 53px;
+         opacity: 1;
+         text-align: left;
+         padding-right: 0;
+         margin-top:5px;
+       
+     }
+     
+     #miui{
+         margin-left:0px;
+         padding-bottom:20px;
+         border-bottom: 1px solid #ACACAC;
+     
+     }
+     
+     .find{
+       
+     width: auto;
+     height: auto;
+     padding-left:12px;
+     font: normal normal medium 17px/48px Jost;
+     letter-spacing: 1.7px;
+     color: #EEC66E;
+     opacity: 1;
+     }
+     
+     .destination{
+         top: 872px;
+         left: 184px;
+         padding-left:12px;
+         width: auto;
+         height: auto;
+         font-size: 10px;
+         text-align: left;
+         font: normal normal medium 20px/67px Jost;
+         letter-spacing: 1px;
+         color: #FFFFFF;
+         text-transform: uppercase;
+         opacity: 1;
+     }
+     
+     .icon{
+         margin-left: 190px;
+         margin-top: -91px;
+     }
+     .date{
+         margin-top:-105px;
+         margin-left: 150px;
+     }
+     .calender{
+         margin-top:-105px;
+         margin-left: 167px;
+     }
+     
+     #room{
+         padding-left: 120px;
+     }
+     
+     #check{
+         text-align: left;
+         padding-left: 60px;
+         border-right: 1px solid #EEC66E;
+
+     }
+     #arrival{
+         padding-left: 46px;
+         border-right: 1px solid #EEC66E;
+     }
+     
+     #column{
+         border-right: 1px solid #EEC66E;
+       
+     }
+     .number{
+         margin-top:-11px;
+     }
+     
+     #adult{
+         padding-left: 23px;
+         padding-top: 0;
+     }
+     
+     #number{
+         padding-left:27px;
+     }
+     
+     #child{
+         padding-left:9px;
+         padding-top:0px;
+     text-align: center;
+     font: normal normal medium 17px/48px Jost ;
+     letter-spacing: 1.7px;
+     color: #EEC66E;
+     opacity: 1;
+     }
+     
+     #children{
+         padding-left: 60px;
+     }
+     
+     #code{
+         padding-left:0px;
+     text-align: center;
+     font: normal normal medium 17px/48px Jost;
+     letter-spacing: 1.7px;
+     color: #EEC66E;
+     opacity: 1;
+     }
+     
+     #select{
+         margin-top:-79px;
+         margin-left:138px;
+     }
+     
+     .code{
+        margin-right:52px; 
+     text-align: center;
+     font: normal normal medium 20px/67px Jost;
+     letter-spacing: 1px;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     opacity: 1;
+     }
+     
+     .enter{
+         padding-left:0px;
+        text-align: center;
+     font: normal normal medium 17px/48px Jost;
+     letter-spacing: 1.7px;
+     color: #EEC66E;
+     opacity: 1;
+     }
+     
+     #enter{
+         width: 218px;
+     height: 26px;
+     text-align: center;
+     font: normal normal medium 20px/67px Jost;
+     letter-spacing: 1px;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     opacity: 1;
+     }
+     
+     .available{
+         margin-top:-6px;
+     height:85px;
+     width:211px;
+     
+     
+     background:  linear-gradient(74deg, #CC9341 0%, #FFE086 0%, #CC9341 100%) 0% 0% no-repeat padding-box;
+     opacity: 1;
+     }
+     
+     #available{
+         padding-left: 17spx;
+         padding-top:27px;
+         text-align: center;
+         font: normal normal medium 23px/85px Jost;
+         letter-spacing: 2.3px;
+         color: #000000;
+     }
+     .contact{
+         /* margin-left:0px; */
+         margin-left:-269px;
+        
+     }
+
+     } 
